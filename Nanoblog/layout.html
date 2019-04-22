@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
+        .menu {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            min-height: 100%;
+        }
+
+        .left-column, .right-column {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .right-column {
+            margin-left: 0;
+            padding-top: 100px;
+        }
+
+        .article {
+            margin-bottom: 30px;
+        }
+
+        .article:not(:first-child) {
+            border-top: 1px solid black;
+        }
+
+        .article h1 {
+            margin-bottom: 5px;
+        }
+
+        .article span {
+            display: block;
+            width: 90px;
+            height: 0.8em;
+            background-color: darkred;
+            margin-bottom: 7px;
+        }
+
+        .article span:nth-of-type(2) {
+            width: 120px;
+        }
+
+        .article span:nth-of-type(3) {
+            width: 70px;
+        }
+
+        .article span:nth-of-type(4) {
+            width: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>mchylls blog</h1>
+        <ul>
+            <li>links</li>
+            <li>links</li>
+            <li>links</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="left-column">
+            <div class="article">
+                <h1>Artikkel 1</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 3</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 5</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 7</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 9</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 11</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="article">
+                <h1>Artikkel 2</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 4</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 6</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="article">
+                <h1>Artikkel 8</h1>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
