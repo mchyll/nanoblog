@@ -1,6 +1,6 @@
 using System;
 
-namespace Nanoblog.Models
+namespace Mchyll.Nanoblog.Models
 {
     public class ErrorViewModel
     {

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Mchyll.Nanoblog.Models;
 using Microsoft.AspNetCore.Mvc;
-using Nanoblog.Models;
+using System.Diagnostics;
 
-namespace Nanoblog.Controllers
+namespace Mchyll.Nanoblog.Controllers
 {
-    public class HomeController : Controller
+	public class HomeController : Controller
     {
         public IActionResult Index()
         {
